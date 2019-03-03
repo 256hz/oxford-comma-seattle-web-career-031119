@@ -16,5 +16,6 @@ def oxford_comma(array)
         string += "#{noun}."
       end
     end
-    string
+  end
+  string
 end
