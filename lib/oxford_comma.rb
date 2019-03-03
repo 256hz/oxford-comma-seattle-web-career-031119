@@ -11,9 +11,7 @@ def oxford_comma(array)
       when index <= array.count - 2
         string += "#{noun}, "
       when index == array.count - 1
-        string += "#{noun} and "
-      when index == array.count
-        string += "#{noun}."
+        string += "and #{noun}"
       end
     end
   end
