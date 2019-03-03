@@ -6,7 +6,7 @@ def oxford_comma(array)
   when array.count == 2
     string = array.join(" and ")
   when array.count > 2
-    array.each.with_index(1) do |noun, index|
+    array.each.with_index do |noun, index|
       case 
       when index < array.count - 2
         string += "#{noun}, "
